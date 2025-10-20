@@ -5,6 +5,9 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "darts>=0.38.0",
+    "gluonts>=0.16.2",
+    "lightning>=2.5.5",
     "nbeats-pytorch>=1.8.0",
     "optuna>=4.5.0",
     "pandas>=2.3.3",
