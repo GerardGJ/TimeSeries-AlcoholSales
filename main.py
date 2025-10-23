@@ -1,6 +1,10 @@
-def main():
-    print("Hello from alcoholsalesproject!")
+from fastapi import FastAPI
+from src.hyperparametrs import HyperParameters
+from src import orchestration
+
+app = FastAPI()
 
 
-if __name__ == "__main__":
-    main()
+@app.put("/train")
+def train_model(request: HyperParameters):
+    orchestration.train_model("ts")

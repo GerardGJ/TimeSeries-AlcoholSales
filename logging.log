@@ -1,0 +1,34 @@
+2025-10-23 22:17:20 | INFO     | src.retrain:train_model:81 - Epoch 10/100, Loss: 0.01856634020805359
+2025-10-23 22:17:22 | INFO     | src.retrain:train_model:81 - Epoch 20/100, Loss: 0.007740425411611795
+2025-10-23 22:17:24 | INFO     | src.retrain:train_model:81 - Epoch 30/100, Loss: 0.006955723278224468
+2025-10-23 22:17:25 | INFO     | src.retrain:train_model:81 - Epoch 40/100, Loss: 0.007400364615023136
+2025-10-23 22:17:27 | INFO     | src.retrain:train_model:81 - Epoch 50/100, Loss: 0.00811072252690792
+2025-10-23 22:17:28 | INFO     | src.retrain:train_model:81 - Epoch 60/100, Loss: 0.01706601493060589
+2025-10-23 22:17:30 | INFO     | src.retrain:train_model:81 - Epoch 70/100, Loss: 0.005230672191828489
+2025-10-23 22:17:32 | INFO     | src.retrain:train_model:81 - Epoch 80/100, Loss: 0.002573551144450903
+2025-10-23 22:17:33 | INFO     | src.retrain:train_model:81 - Epoch 90/100, Loss: 0.004567564465105534
+2025-10-23 22:17:35 | INFO     | src.retrain:train_model:81 - Epoch 100/100, Loss: 0.005556823685765266
+2025-10-23 22:17:35 | INFO     | src.retrain:train_model:83 - Model trained successfully
+2025-10-23 22:19:43 | INFO     | src.retrain:train_model:81 - Epoch 10/100, Loss: 0.015502555295825005
+2025-10-23 22:19:44 | INFO     | src.retrain:train_model:81 - Epoch 20/100, Loss: 0.01251845434308052
+2025-10-23 22:19:46 | INFO     | src.retrain:train_model:81 - Epoch 30/100, Loss: 0.010354363359510899
+2025-10-23 22:19:47 | INFO     | src.retrain:train_model:81 - Epoch 40/100, Loss: 0.012425268068909645
+2025-10-23 22:19:49 | INFO     | src.retrain:train_model:81 - Epoch 50/100, Loss: 0.011771643534302711
+2025-10-23 22:19:50 | INFO     | src.retrain:train_model:81 - Epoch 60/100, Loss: 0.006845307536423206
+2025-10-23 22:19:52 | INFO     | src.retrain:train_model:81 - Epoch 70/100, Loss: 0.006528835278004408
+2025-10-23 22:19:53 | INFO     | src.retrain:train_model:81 - Epoch 80/100, Loss: 0.004983204882591963
+2025-10-23 22:19:55 | INFO     | src.retrain:train_model:81 - Epoch 90/100, Loss: 0.0049976687878370285
+2025-10-23 22:19:56 | INFO     | src.retrain:train_model:81 - Epoch 100/100, Loss: 0.004487290978431702
+2025-10-23 22:19:56 | INFO     | src.retrain:train_model:83 - Model trained successfully
+2025-10-23 22:25:31 | INFO     | src.retrain:train_model:81 - Epoch 10/100, Loss: 0.017527597025036812
+2025-10-23 22:25:32 | INFO     | src.retrain:train_model:81 - Epoch 20/100, Loss: 0.007866078987717628
+2025-10-23 22:25:34 | INFO     | src.retrain:train_model:81 - Epoch 30/100, Loss: 0.010891824029386044
+2025-10-23 22:25:35 | INFO     | src.retrain:train_model:81 - Epoch 40/100, Loss: 0.0034768616314977407
+2025-10-23 22:25:37 | INFO     | src.retrain:train_model:81 - Epoch 50/100, Loss: 0.010956497862935066
+2025-10-23 22:25:38 | INFO     | src.retrain:train_model:81 - Epoch 60/100, Loss: 0.005873771850019693
+2025-10-23 22:25:40 | INFO     | src.retrain:train_model:81 - Epoch 70/100, Loss: 0.016714176163077354
+2025-10-23 22:25:41 | INFO     | src.retrain:train_model:81 - Epoch 80/100, Loss: 0.002824262948706746
+2025-10-23 22:25:43 | INFO     | src.retrain:train_model:81 - Epoch 90/100, Loss: 0.0051066032610833645
+2025-10-23 22:25:44 | INFO     | src.retrain:train_model:81 - Epoch 100/100, Loss: 0.0038374389987438917
+2025-10-23 22:25:44 | INFO     | src.retrain:train_model:83 - Model trained successfully
+2025-10-23 22:25:44 | INFO     | src.retrain:model_saver:92 - Model succesfully saved with name ts

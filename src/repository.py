@@ -29,13 +29,13 @@ class Repository():
 
     def getConnection(self):
         if self.engine is None:
-            self.engine = self.getEngine()
+            self.getEngine()
         return self.engine.connect()
     
     def getTable(self,tableName:str):
         conn = self.getConnection()
         table = pd.read_sql(tableName,
-                           conn=conn)
+                           con=conn)
         conn.close()
         return table
         
