@@ -35,3 +35,11 @@ Regarding streamlit the intention is to have several modules:
 
 - The best model: This module will show the best model predictions as well as the plot the model predictions.
 - Retraing/Playground to train and visualize several hyperparameters.
+
+#### Model Playgound
+
+The user will have the ability to train several models that will be saved, and that will be able to see the preformance of those models in the model visulaization module
+
+#### Model Visualization
+
+Here the user will be able to visulize how the model predicts the data
