@@ -7,4 +7,9 @@ app = FastAPI()
 
 @app.put("/train")
 def train_model(request: HyperParameters):
-    orchestration.train_model("ts")
+    orchestration.train_model("ts",request)
+
+
+@app.get("/visualization")
+def train_model(request):
+    orchestration.train_model("ts",request)

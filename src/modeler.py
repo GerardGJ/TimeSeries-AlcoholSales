@@ -3,6 +3,8 @@ import pandas as pd
 import os
 import yaml
 import math
+import json
+import numpy as np
 
 from dotenv import load_dotenv
 from nbeats_pytorch.model import NBeatsNet
@@ -15,7 +17,7 @@ from src.hyperparametrs import HyperParameters
 
 load_dotenv()
 
-class ModelTrainer():
+class Modeler():
     def __init__(self):
         with open("config.yaml") as file:
             self.config = yaml.safe_load(file)
@@ -82,11 +84,49 @@ class ModelTrainer():
         
         logger.info("Model trained successfully")
     
-    def model_saver(self, modelName:str):
-        print(self.config)
-        PATH = os.path.join(self.config['modelFolder'],modelName+".pt")
-        if os.path.isfile(PATH):
-            return "This file already exists"
-        torch.save(self.model.state_dict(), PATH)
+    def model_saver(self, modelName:str, hyperParameters:HyperParameters):
+        FOLDERPATH = os.path.join(self.config['modelFolder'],modelName)
+        PATHMODEL = os.path.join(FOLDERPATH,modelName+".pt")
+        PATHMETADATA = os.path.join(FOLDERPATH,modelName+".json")
 
+        if not os.path.exists(FOLDERPATH):
+            os.makedirs(FOLDERPATH)
+
+        if os.path.isfile(PATHMODEL):
+            logger.info("This file already exists")
+
+        with open(PATHMETADATA, "r+") as f:
+            json.dump(hyperParameters.__dict__,f)
+
+        torch.save(self.model, PATHMODEL)
         logger.info(f"Model succesfully saved with name {modelName}")
+    
+    def load_model(self,modelName:str):
+        FOLDERPATH = os.path.join(self.config['modelFolder'],modelName)
+        PATHMODEL = os.path.join(FOLDERPATH,modelName+".pt")
+        PATHMETADATA = os.path.join(FOLDERPATH,modelName+".json")
+
+        self.model = torch.load(PATHMODEL, weights_only=False)
+        self.model.eval()
+
+        with open(PATHMETADATA) as f:
+            hyperParameters = json.load(f)
+
+        logger.info(f"Model loaded correctly")
+
+        return hyperParameters
+
+    def predict(self, modelName:str, x_batch:np.ndarray, y_batch:np.ndarray):
+        device = 'cuda' if torch.cuda.is_available() else 'cpu'
+
+
+        x_batch, y_batch = x_batch.to(device), y_batch.to(device)
+
+        with torch.no_grad():
+            backcast, forecast = self.model(x_batch)
+
+        # Convert to numpy for plotting
+        backcast = backcast.cpu().numpy()
+        forecast = forecast.cpu().numpy()
+
+        return backcast, forecast
