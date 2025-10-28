@@ -34,7 +34,7 @@ class Modeler():
             ).to(device)
 
     def load_data(self,train_model) -> pd.DataFrame:
-        repo = Repository()
+        repo = Repository(self.config["database"])
 
         df = repo.getTable(train_model)
 
@@ -95,7 +95,7 @@ class Modeler():
         if os.path.isfile(PATHMODEL):
             logger.info("This file already exists")
 
-        with open(PATHMETADATA, "r+") as f:
+        with open(PATHMETADATA, "w") as f:
             json.dump(hyperParameters.__dict__,f)
 
         torch.save(self.model, PATHMODEL)
@@ -116,11 +116,14 @@ class Modeler():
 
         return hyperParameters
 
-    def predict(self, modelName:str, x_batch:np.ndarray, y_batch:np.ndarray):
+    def predict(self, modelName:str, x_batch:np.ndarray):
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
+        self.load_model(modelName)
 
-        x_batch, y_batch = x_batch.to(device), y_batch.to(device)
+        x_batch = torch.Tensor([x_batch]).to(device)
+
+        print(x_batch)
 
         with torch.no_grad():
             backcast, forecast = self.model(x_batch)

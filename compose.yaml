@@ -12,5 +12,12 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+  model:
+    build: .
+    container_name: model_app
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./logging.log:/app/logging.log
 volumes:
   postgres_data:

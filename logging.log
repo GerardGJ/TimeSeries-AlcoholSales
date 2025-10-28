@@ -190,3 +190,160 @@
 2025-10-25 14:47:54 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name ts
 2025-10-25 14:47:54 | INFO     | src.orchestration:train_model:12 - Model Training done and saved
 2025-10-25 14:49:12 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:25:40 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:26:41 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:28:59 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:29:00 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:31:14 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:31:14 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:32:00 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:32:28 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:32:56 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:32:57 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:35:37 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:35:37 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:38:45 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 18:38:46 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:03:36 | INFO     | src.modeler:train_model:83 - Epoch 10/100, Loss: 0.012902101501822472
+2025-10-28 19:03:37 | INFO     | src.modeler:train_model:83 - Epoch 20/100, Loss: 0.0021479553543031216
+2025-10-28 19:03:39 | INFO     | src.modeler:train_model:83 - Epoch 30/100, Loss: 0.003665491472929716
+2025-10-28 19:03:40 | INFO     | src.modeler:train_model:83 - Epoch 40/100, Loss: 0.0009985247161239386
+2025-10-28 19:03:42 | INFO     | src.modeler:train_model:83 - Epoch 50/100, Loss: 0.000464641023427248
+2025-10-28 19:03:43 | INFO     | src.modeler:train_model:83 - Epoch 60/100, Loss: 0.0023555057123303413
+2025-10-28 19:03:45 | INFO     | src.modeler:train_model:83 - Epoch 70/100, Loss: 0.0003152559802401811
+2025-10-28 19:03:46 | INFO     | src.modeler:train_model:83 - Epoch 80/100, Loss: 0.0013625945430248976
+2025-10-28 19:03:48 | INFO     | src.modeler:train_model:83 - Epoch 90/100, Loss: 0.0028964485973119736
+2025-10-28 19:03:49 | INFO     | src.modeler:train_model:83 - Epoch 100/100, Loss: 0.0005582505255006254
+2025-10-28 19:03:49 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 19:03:49 | INFO     | src.modeler:model_saver:96 - This file already exists
+2025-10-28 19:03:49 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name ts
+2025-10-28 19:03:49 | INFO     | src.orchestration:train_model:14 - Model Training done and saved
+2025-10-28 19:06:56 | INFO     | src.modeler:train_model:83 - Epoch 10/100, Loss: 0.012861562892794609
+2025-10-28 19:06:58 | INFO     | src.modeler:train_model:83 - Epoch 20/100, Loss: 0.006635124329477549
+2025-10-28 19:06:59 | INFO     | src.modeler:train_model:83 - Epoch 30/100, Loss: 0.004950340371578932
+2025-10-28 19:07:01 | INFO     | src.modeler:train_model:83 - Epoch 40/100, Loss: 0.0025723841972649097
+2025-10-28 19:07:02 | INFO     | src.modeler:train_model:83 - Epoch 50/100, Loss: 0.00463520735502243
+2025-10-28 19:07:04 | INFO     | src.modeler:train_model:83 - Epoch 60/100, Loss: 0.006736303213983774
+2025-10-28 19:07:05 | INFO     | src.modeler:train_model:83 - Epoch 70/100, Loss: 0.004121080040931702
+2025-10-28 19:07:07 | INFO     | src.modeler:train_model:83 - Epoch 80/100, Loss: 0.0034839760046452284
+2025-10-28 19:07:08 | INFO     | src.modeler:train_model:83 - Epoch 90/100, Loss: 0.001422316418029368
+2025-10-28 19:07:09 | INFO     | src.modeler:train_model:83 - Epoch 100/100, Loss: 0.0020375465974211693
+2025-10-28 19:07:09 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 19:09:39 | INFO     | src.modeler:train_model:83 - Epoch 10/100, Loss: 0.005177886225283146
+2025-10-28 19:09:40 | INFO     | src.modeler:train_model:83 - Epoch 20/100, Loss: 0.004435164388269186
+2025-10-28 19:09:42 | INFO     | src.modeler:train_model:83 - Epoch 30/100, Loss: 0.002416962990537286
+2025-10-28 19:09:43 | INFO     | src.modeler:train_model:83 - Epoch 40/100, Loss: 0.0012090223608538508
+2025-10-28 19:09:45 | INFO     | src.modeler:train_model:83 - Epoch 50/100, Loss: 0.002263774396851659
+2025-10-28 19:09:46 | INFO     | src.modeler:train_model:83 - Epoch 60/100, Loss: 0.002941923914477229
+2025-10-28 19:09:48 | INFO     | src.modeler:train_model:83 - Epoch 70/100, Loss: 0.0013897602912038565
+2025-10-28 19:09:49 | INFO     | src.modeler:train_model:83 - Epoch 80/100, Loss: 0.002387506887316704
+2025-10-28 19:09:51 | INFO     | src.modeler:train_model:83 - Epoch 90/100, Loss: 0.0016021846095100045
+2025-10-28 19:09:52 | INFO     | src.modeler:train_model:83 - Epoch 100/100, Loss: 0.0011858607176691294
+2025-10-28 19:09:52 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 19:09:52 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 19:11:16 | INFO     | src.modeler:train_model:83 - Epoch 10/100, Loss: 0.007919469848275185
+2025-10-28 19:11:17 | INFO     | src.modeler:train_model:83 - Epoch 20/100, Loss: 0.0019685348961502314
+2025-10-28 19:11:20 | INFO     | src.modeler:train_model:83 - Epoch 30/100, Loss: 0.0013021680060774088
+2025-10-28 19:11:24 | INFO     | src.modeler:train_model:83 - Epoch 40/100, Loss: 0.0003407383046578616
+2025-10-28 19:11:26 | INFO     | src.modeler:train_model:83 - Epoch 50/100, Loss: 0.0013248519971966743
+2025-10-28 19:11:28 | INFO     | src.modeler:train_model:83 - Epoch 60/100, Loss: 0.0015087503707036376
+2025-10-28 19:11:29 | INFO     | src.modeler:train_model:83 - Epoch 70/100, Loss: 0.003888595150783658
+2025-10-28 19:11:31 | INFO     | src.modeler:train_model:83 - Epoch 80/100, Loss: 0.0011471539037302136
+2025-10-28 19:11:32 | INFO     | src.modeler:train_model:83 - Epoch 90/100, Loss: 0.0004009454569313675
+2025-10-28 19:11:34 | INFO     | src.modeler:train_model:83 - Epoch 100/100, Loss: 0.00032846868271008134
+2025-10-28 19:11:34 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 19:11:34 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 19:13:24 | INFO     | src.modeler:train_model:83 - Epoch 10/100, Loss: 0.012533089146018028
+2025-10-28 19:13:25 | INFO     | src.modeler:train_model:83 - Epoch 20/100, Loss: 0.0020339880138635635
+2025-10-28 19:13:27 | INFO     | src.modeler:train_model:83 - Epoch 30/100, Loss: 0.0022191922180354595
+2025-10-28 19:13:28 | INFO     | src.modeler:train_model:83 - Epoch 40/100, Loss: 0.001251654583029449
+2025-10-28 19:13:30 | INFO     | src.modeler:train_model:83 - Epoch 50/100, Loss: 0.0006385374581441283
+2025-10-28 19:13:31 | INFO     | src.modeler:train_model:83 - Epoch 60/100, Loss: 390.3601379394531
+2025-10-28 19:13:33 | INFO     | src.modeler:train_model:83 - Epoch 70/100, Loss: 0.005409900564700365
+2025-10-28 19:13:35 | INFO     | src.modeler:train_model:83 - Epoch 80/100, Loss: 0.009561331011354923
+2025-10-28 19:13:36 | INFO     | src.modeler:train_model:83 - Epoch 90/100, Loss: 0.001367094460874796
+2025-10-28 19:13:37 | INFO     | src.modeler:train_model:83 - Epoch 100/100, Loss: 0.0015642544021829963
+2025-10-28 19:13:37 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 19:13:37 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 19:13:37 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name apiCalled
+2025-10-28 19:13:37 | INFO     | src.orchestration:train_model:14 - Model saved
+2025-10-28 19:13:37 | INFO     | src.orchestration:train_model:16 - Model Training done and saved
+2025-10-28 19:16:26 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:16:27 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:19:38 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:19:38 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:20:16 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:20:16 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:20:59 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:20:59 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:22:00 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:22:01 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:23:51 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:23:51 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:08:49 | INFO     | src.modeler:train_model:83 - Epoch 10/100, Loss: 0.008955494500696659
+2025-10-28 19:08:50 | INFO     | src.modeler:train_model:83 - Epoch 20/100, Loss: 0.001739865867421031
+2025-10-28 19:08:52 | INFO     | src.modeler:train_model:83 - Epoch 30/100, Loss: 0.0022738028783351183
+2025-10-28 19:08:53 | INFO     | src.modeler:train_model:83 - Epoch 40/100, Loss: 0.0053533632308244705
+2025-10-28 19:08:55 | INFO     | src.modeler:train_model:83 - Epoch 50/100, Loss: 0.006784866098314524
+2025-10-28 19:08:56 | INFO     | src.modeler:train_model:83 - Epoch 60/100, Loss: 0.002320651663467288
+2025-10-28 19:08:58 | INFO     | src.modeler:train_model:83 - Epoch 70/100, Loss: 0.001095521030947566
+2025-10-28 19:08:59 | INFO     | src.modeler:train_model:83 - Epoch 80/100, Loss: 0.0010880612535402179
+2025-10-28 19:09:01 | INFO     | src.modeler:train_model:83 - Epoch 90/100, Loss: 0.002084390027448535
+2025-10-28 19:09:03 | INFO     | src.modeler:train_model:83 - Epoch 100/100, Loss: 0.0007894589798524976
+2025-10-28 19:09:03 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 19:09:03 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 19:09:03 | INFO     | src.modeler:model_saver:96 - This file already exists
+2025-10-28 19:09:03 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name apiCalled
+2025-10-28 19:09:03 | INFO     | src.orchestration:train_model:14 - Model saved
+2025-10-28 19:09:03 | INFO     | src.orchestration:train_model:16 - Model Training done and saved
+2025-10-28 19:13:37 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 19:13:37 | INFO     | src.modeler:load_model:115 - Model loaded correctly
+2025-10-28 20:00:10 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.02252502180635929
+2025-10-28 20:00:11 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.014409803785383701
+2025-10-28 20:00:12 | INFO     | src.modeler:train_model:83 - Epoch 30/50, Loss: 0.015523530542850494
+2025-10-28 20:00:13 | INFO     | src.modeler:train_model:83 - Epoch 40/50, Loss: 0.011408516205847263
+2025-10-28 20:00:14 | INFO     | src.modeler:train_model:83 - Epoch 50/50, Loss: 0.013996569439768791
+2025-10-28 20:00:14 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 20:00:14 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 20:00:14 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name ModelName
+2025-10-28 20:00:14 | INFO     | src.orchestration:train_model:14 - Model saved
+2025-10-28 20:00:14 | INFO     | src.orchestration:train_model:16 - Model Training done and saved
+2025-10-28 20:00:45 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.01740003190934658
+2025-10-28 20:01:40 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.02438882365822792
+2025-10-28 20:01:41 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.025061922147870064
+2025-10-28 20:01:42 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.018549233675003052
+2025-10-28 20:01:42 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.02009156532585621
+2025-10-28 20:01:42 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.02555873431265354
+2025-10-28 20:01:42 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.0334479995071888
+2025-10-28 20:01:42 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.023757636547088623
+2025-10-28 20:01:43 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.01631009206175804
+2025-10-28 20:01:54 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.021632635965943336
+2025-10-28 20:02:07 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.021449001505970955
+2025-10-28 20:02:41 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.01486928854137659
+2025-10-28 20:02:42 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.016782796010375023
+2025-10-28 20:02:43 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.015380670316517353
+2025-10-28 20:02:43 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.012005764059722424
+2025-10-28 20:02:43 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.01625087484717369
+2025-10-28 20:02:43 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.013501768000423908
+2025-10-28 20:02:44 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.012870109640061855
+2025-10-28 20:02:44 | INFO     | src.modeler:train_model:83 - Epoch 30/50, Loss: 0.012350198812782764
+2025-10-28 20:03:49 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.007867410778999329
+2025-10-28 20:03:50 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.011143460869789124
+2025-10-28 20:03:51 | INFO     | src.modeler:train_model:83 - Epoch 30/50, Loss: 0.0031078460160642862
+2025-10-28 20:03:52 | INFO     | src.modeler:train_model:83 - Epoch 40/50, Loss: 0.002389536937698722
+2025-10-28 20:03:53 | INFO     | src.modeler:train_model:83 - Epoch 50/50, Loss: 0.009348813444375992
+2025-10-28 20:03:53 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 20:03:53 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 20:03:53 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name modelName
+2025-10-28 20:03:53 | INFO     | src.orchestration:train_model:14 - Model saved
+2025-10-28 20:03:53 | INFO     | src.orchestration:train_model:16 - Model Training done and saved
+2025-10-28 20:14:24 | INFO     | src.modeler:train_model:83 - Epoch 10/50, Loss: 0.020928453654050827
+2025-10-28 20:14:25 | INFO     | src.modeler:train_model:83 - Epoch 20/50, Loss: 0.01262067724019289
+2025-10-28 20:14:25 | INFO     | src.modeler:train_model:83 - Epoch 30/50, Loss: 0.009598867036402225
+2025-10-28 20:14:26 | INFO     | src.modeler:train_model:83 - Epoch 40/50, Loss: 0.008840100839734077
+2025-10-28 20:14:27 | INFO     | src.modeler:train_model:83 - Epoch 50/50, Loss: 0.02159055322408676
+2025-10-28 20:14:27 | INFO     | src.modeler:train_model:85 - Model trained successfully
+2025-10-28 20:14:27 | INFO     | src.orchestration:train_model:12 - Saving model ...
+2025-10-28 20:14:27 | INFO     | src.modeler:model_saver:102 - Model succesfully saved with name Pepito
+2025-10-28 20:14:27 | INFO     | src.orchestration:train_model:14 - Model saved
+2025-10-28 20:14:27 | INFO     | src.orchestration:train_model:16 - Model Training done and saved

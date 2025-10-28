@@ -3,12 +3,16 @@ from src.repository import Repository
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+from io import BytesIO
+import yaml
 
 class Visualizer():
-    
+    def __init__(self):
+        with open("config.yaml") as file:
+            self.config = yaml.safe_load(file)
     def plotPredictions(self,modelName:str):
         model = Modeler()
-        repo = Repository()
+        repo = Repository(self.config["database"])
 
         hyperparameters = model.load_model(modelName)
         dataToGet = hyperparameters['backcast_length'] + hyperparameters['forecast_length']
@@ -18,10 +22,10 @@ class Visualizer():
         data.set_index('DATE',inplace=True)
         data.index = pd.DatetimeIndex(data.index,freq='MS')
 
-        x_batch = data.iloc[-dataToGet:-hyperparameters['forecast_length'],] 
-        y_batch = data.iloc[-hyperparameters['forecast_length']:,]
+        x_batch = data.iloc[-dataToGet:-hyperparameters['forecast_length'],0] 
+        y_batch = data.iloc[-hyperparameters['forecast_length']:,0]
 
-        backcast, forecast = model.predict(modelName,x_batch,y_batch)
+        backcast, forecast = model.predict(modelName,x_batch)
 
         # Plotting a sample:
         backcast = backcast[0]
@@ -57,4 +61,9 @@ class Visualizer():
         plt.grid(True, alpha=0.3)
         plt.tight_layout()
 
-        plt.show()
+        buf = BytesIO()
+        plt.savefig(buf, format='png', bbox_inches='tight')
+        buf.seek(0)  # Important: reset pointer to beginning
+        plt.close()  # Close the figure to free memory
+
+        return buf
