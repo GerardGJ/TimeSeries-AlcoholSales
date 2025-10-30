@@ -70,3 +70,5 @@ if start_execution:
         f"http://localhost:8080/train/{modelName}", 
         json=hyperparameters
     )
+
+    st.write("Model Trained Successfully")

@@ -3,6 +3,7 @@ from fastapi.responses import StreamingResponse
 from src.hyperparametrs import HyperParameters
 from src import orchestration
 import uvicorn
+import os
 
 app = FastAPI(
     title="Alcohol sales API",
@@ -24,6 +25,12 @@ def train_model(name:str,request: HyperParameters):
 def visualization(name:str):
     plt = orchestration.visualization(name)
     return StreamingResponse(plt, media_type="image/png")
+
+@app.get("/models/{folder}")
+def models(folder:str):
+    print(os.getcwd())
+    folders = orchestration.get_folders_scandir(os.path.join(".",folder))
+    return {"models":folders}
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)
